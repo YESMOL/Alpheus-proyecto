@@ -2,7 +2,8 @@
 	
 	"use strict";
 
-	// Header Type = Fixed
+	// Header Type = Fixed 
+  /* cuando hago scroll agrega o saca la clase*/
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     var box = $('.header-text').height();
@@ -13,8 +14,8 @@
     } else {
       $("header").removeClass("background-header");
     }
-  });
-
+  }); 
+  
 
 	$('.loop').owlCarousel({
       center: true,

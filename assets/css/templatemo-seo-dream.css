@@ -254,8 +254,7 @@ header
 --------------------------------------------- 
 */
 
-.background-header {
-  background-color: #33ccc5!important;
+.background-header { 
   height: 80px!important;
   position: fixed!important;
   top: 0px;
@@ -331,7 +330,6 @@ header
 
 .header-area .main-nav .logo h4 img {
   max-width: 30px;
-  margin: 10px;
   margin-left: 5px;
 }
 
