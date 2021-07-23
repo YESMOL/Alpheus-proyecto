@@ -289,7 +289,7 @@ header
 }
 
 .header-area {
-  background-color: rgb(2, 73, 89);
+  background-color:#0c64a5 ;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -641,7 +641,6 @@ header
     width: 100%;
   }
   .header-area {
-    background-color: rgb(2, 73, 89);;
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -867,7 +866,8 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/banner-dec-right.png);
+  background-image: url(../images/bussines.jpg);
+  /* opacity: 0.5; */
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1061,6 +1061,7 @@ Features Style
   border-bottom-right-radius: 50px;
   border-bottom-left-radius: 50px;
   padding: 110px 0px 50px 0px;
+  
 }
 
 .skill-item {
@@ -1368,111 +1369,6 @@ Services Style
   color: #2a2a2a;
   margin-bottom: 15px;
 }
-
-
-/* 
----------------------------------------------
-Portfolio
---------------------------------------------- 
-*/
-
-.our-portfolio {
-  padding-top: 100px;
-  overflow: hidden;
-}
-
-.our-portfolio .container-fluid {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
-.portfolio-item {
-  margin-bottom: 30px;
-  border-radius: 50px;
-}
-
-.portfolio-item:hover .thumb .hover-content {
-  opacity: 1;
-  visibility: visible;
-}
-
-.portfolio-item .thumb {
-  position: relative;
-  border-radius: 50px;
-}
-
-.portfolio-item .thumb img {
-  border-radius: 50px;
-  overflow: hidden;
-}
-
-.portfolio-item .thumb .hover-content {
-  border-radius: 50px;
-  overflow: hidden;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background: rgb(51,204,197);
-  background: linear-gradient(105deg, rgba(51,204,197,1) 0%, rgba(8,141,195,1) 100%);
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  visibility: hidden;
-  transition: all .5s;
-}
-
-.portfolio-item .thumb .hover-content .inner-content {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
-  text-align: center;
-}
-
-.portfolio-item .thumb .hover-content .inner-content h4 {
-  font-size: 20px;
-  font-weight: 700;
-  color: #fff;
-  margin-bottom: 10px;
-}
-
-.portfolio-item .thumb .hover-content .inner-content span {
-  font-size: 15px;
-  color: #fff;
-}
-
-.our-portfolio .owl-nav {
-  display: inline-block!important;
-  position: absolute;
-  top: -117px;
-  right: 15%;
-  max-width: 1320px;
-}
-
-.our-portfolio .owl-nav .owl-next {
-  margin-left: 10px;
-}
-
-.our-portfolio .owl-nav span {
-  width: 46px;
-  height: 46px;
-  display: inline-block;
-  text-align: center;
-  line-height: 35px;
-  font-size: 30px;
-  border: 2px solid #eee;
-  border-radius: 50%;
-  color: #ddd;
-  transition: all 0.5s;
-}
-
-.our-portfolio .owl-nav span:hover {
-  color: #33ccc5;
-  border-color: #33ccc5;
-}
-
-
-
 /* 
 ---------------------------------------------
 contact
