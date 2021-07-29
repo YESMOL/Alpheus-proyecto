@@ -1,0 +1,55 @@
+$color-selection: #fff;
+$valor0: 0px ;
+
+::selection {
+    background: #03a4ed;
+    color: $color-selection;
+  }
+
+.background-header {
+    height: $valor0 ;
+    position: $valor0;
+    top: $valor0;
+    left: $valor0;
+    right: $valor0;
+    box-shadow: $valor0; 
+
+        .nav{
+
+            li{ 
+
+                 a.active:after {
+                    position: absolute;
+                    width: 20px;
+                    height: 2px;
+                    background-color: #4771cb;
+                    content: '';
+                    left: 50%;
+                    bottom: 0px;
+                    transform: translateX(-10px);
+                } 
+                a.active {
+                    position: relative;
+                    color:$color-selection;
+                } 
+             }
+        } 
+        .logo{  
+            color:$color-selection ; 
+        }
+        .main-nav{
+            .nav{
+                li:hover{
+                    a{
+                       color: #33ccc5;
+                   }                       
+               }
+                li{
+                    a{
+                    color:$color-selection;
+                    }
+                } 
+            } 
+        } 
+ } 
+
