@@ -178,7 +178,7 @@ body {
 .section-heading h6 {
   font-size: 15px;
   font-weight: 700;
-  color: #33ccc5;
+  color: #2c304d;
   text-transform: uppercase;
   margin-bottom: 15px;
 
@@ -195,11 +195,11 @@ body {
 
 .section-heading h2 em {
   font-style: normal;
-  color: #33ccc5;
+  color: #727dc6;
 }
 
 .section-heading h2 span {
-  color: #088ec3;
+  color: #85bde4;
 }
 
 .main-blue-button a {
@@ -261,7 +261,9 @@ header
 }
 
 .header-area {
-  background-color:#0c64a5 ;
+  background-image: linear-gradient(to right top, #a7afe6, #97a5df, #859ad8, 
+  #7291d1, #5e87ca, #5389cc, #458acd,
+   #358cce, #3099d8, #2ea6e1, #2eb2e9, #33bff0);
   position: absolute;
   top: 0px;
   left: 0px;
@@ -344,7 +346,7 @@ header
 
 .header-area .main-nav .nav li:last-child a:hover ,
 .background-header .main-nav .nav li:last-child a:hover {
-  color: #4771cb !important;
+  color: #2a5ca3!important;
 }
 
 .header-area .main-nav .nav li a {
@@ -838,8 +840,8 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/bussines.jpg);
-  /* opacity: 0.5; */
+  /* background-image: url(../images/bussines.jpg);
+   opacity: 0.5; */
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -878,10 +880,7 @@ Banner Style
   font-weight: 800;
   color: #2a2a2a;
   line-height: 72px;
-  background: #FA9D4D;
-  background: -webkit-linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
-  background: -moz-linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
-  background: linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
+  background-image: linear-gradient(to right top, #727dc6, #697dc5, #607dc4, #567cc3, #4c7cc2, #3d87cb, #2991d3, #009cd9, #00b5e6, #00cdee, #27e4f1, #5ffbf1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1029,7 +1028,7 @@ Features Style
   position: relative;
   z-index: 1;
   margin-top: -50px;
-  background-color: #f5f5f5;
+  background-color: #5a70d0;
   border-bottom-right-radius: 50px;
   border-bottom-left-radius: 50px;
   padding: 110px 0px 50px 0px;
@@ -1270,7 +1269,7 @@ About Us Style
 .about-us .about-item h4 {
   font-size:38px;
   font-weight: 800;
-  color:#088ec3;
+  color:#727dc6;
 }
 
 .about-us .about-item h6 {
@@ -1350,10 +1349,9 @@ contact
 .contact-us {
   margin-top: 90px;
   padding: 120px 0px;
-  background-image: url(../images/contact-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-image: linear-gradient(to right top, #727dc6, #697dc5,
+   #607dc4, #567cc3, #4c7cc2, #3d87cb, #2991d3,
+    #009cd9, #00b5e6, #00cdee, #27e4f1, #5ffbf1);
 }
 .contact-us .section-heading {
   text-align: center;
