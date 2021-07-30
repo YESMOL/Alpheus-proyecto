@@ -928,8 +928,7 @@ Features Style
 }
 
 .features-item:hover {
-  background: rgb(51,204,197);
-  background: linear-gradient(105deg, rgba(51,204,197,1) 0%, rgba(8,141,195,1) 100%);
+  background-image: linear-gradient(to right top, #a7afe6, #97a5df, #859ad8, #7291d1, #5e87ca, #5389cc, #458acd, #358cce, #3099d8, #2ea6e1, #2eb2e9, #33bff0);
 }
 
 .features-item:hover h4 {
