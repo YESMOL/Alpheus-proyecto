@@ -1,6 +1,6 @@
 $color-selection: #fff;
 $valor0: 0px ;
-
+$valor100: 100%;
 ::selection {
     background: #03a4ed;
     color: $color-selection;
@@ -53,3 +53,12 @@ $valor0: 0px ;
         } 
  } 
 
+ .progress >  span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+  

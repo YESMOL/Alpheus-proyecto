@@ -1078,6 +1078,9 @@ Features Style
   top: 0;
   border-color: #fd6a54;
 }
+.Img-cubo{
+  height: 126px;
+}
 .progress .progress-left .progress-bar {
   left: 100%;
   border-top-right-radius: 75px;
