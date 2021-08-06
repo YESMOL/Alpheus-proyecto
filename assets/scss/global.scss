@@ -53,12 +53,36 @@ $valor100: 100%;
         } 
  } 
 
- .progress >  span {
-    width: 50%;
-    height: 100%;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    z-index: 1;
-  }
-  
+ .grid-sizer,
+ .grid-item {
+     width: math.div( $valor100,2);
+ }
+
+
+.our-services section{
+    .container-fluid{
+        .row{
+            .col-lg-4{
+                .service-item .wow .bounceInUp{
+                    .row{
+                        .col-lg-8{
+                         .right-content{
+                                img{
+                                 #Img-cubo{
+                                         height: 126px;
+
+                                    }
+                                }
+                            }
+                         }
+                    }
+                }
+            }
+         }
+    }
+}
+
+
+
+
+

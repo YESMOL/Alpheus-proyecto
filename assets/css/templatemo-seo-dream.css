@@ -52,10 +52,6 @@ figure, header, nav, section, article, aside, footer, figcaption {
 
 /* ---- .grid-item ---- */
 
-.grid-sizer,
-.grid-item {
-  width: 50%;
-}
 
 .grid-item {
   float: left;
@@ -1078,9 +1074,7 @@ Features Style
   top: 0;
   border-color: #fd6a54;
 }
-.Img-cubo{
-  height: 126px;
-}
+
 .progress .progress-left .progress-bar {
   left: 100%;
   border-top-right-radius: 75px;
@@ -1342,6 +1336,9 @@ Services Style
   color: #2a2a2a;
   margin-bottom: 15px;
 }
+#Img-cubo{
+height: 126px;
+ }
 /* 
 ---------------------------------------------
 contact

@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "build-css": "node-sass --include-path scss scss/global.scss css/templatemo-seo-dream.css",
+"watch-css":"nodemon -e scss -x \"npm run build-css\"",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,4 +21,5 @@
   "dependencies": {
     "sass": "^1.37.5"
   }
+
 }
