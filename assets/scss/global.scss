@@ -1,86 +1,62 @@
 $color-selection: #fff;
-$valor0: 0px ;
-$valor100: 100%;
+$color-background-selection: #03a4ed;
+$color-link: #4771cb;
+$color-main-link: #33ccc5;
+$height: 100px;
+$box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4);
+
 ::selection {
-    background: #03a4ed;
+  background: $color-background-selection;
+  color: $color-selection;
+}
+
+.header {
+  height: $height;
+  box-shadow: $box-shadow;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  .nav {
+    &__link {
+      a.active:after {
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        background-color: $color-link;
+        content: '';
+        left: 50%;
+        bottom: 0px;
+        transform: translateX(-10px);
+      }
+      a.active {
+        position: relative;
+        color: $color-selection;
+      }
+    }
+  }
+
+  &__logo {
     color: $color-selection;
   }
 
-.background-header {
-    height: $valor0 ;
-    position: $valor0;
-    top: $valor0;
-    left: $valor0;
-    right: $valor0;
-    box-shadow: $valor0; 
-
-        .nav{
-
-            li{ 
-
-                 a.active:after {
-                    position: absolute;
-                    width: 20px;
-                    height: 2px;
-                    background-color: #4771cb;
-                    content: '';
-                    left: 50%;
-                    bottom: 0px;
-                    transform: translateX(-10px);
-                } 
-                a.active {
-                    position: relative;
-                    color:$color-selection;
-                } 
-             }
-        } 
-        .logo{  
-            color:$color-selection ; 
+  &__main-nav {
+    .nav {
+      li:hover {
+        a {
+          color: $color-main-link;
         }
-        .main-nav{
-            .nav{
-                li:hover{
-                    a{
-                       color: #33ccc5;
-                   }                       
-               }
-                li{
-                    a{
-                    color:$color-selection;
-                    }
-                } 
-            } 
-        } 
- } 
-
- .grid-sizer,
- .grid-item {
-     width: math.div( $valor100,2);
- }
-
-
-.our-services section{
-    .container-fluid{
-        .row{
-            .col-lg-4{
-                .service-item .wow .bounceInUp{
-                    .row{
-                        .col-lg-8{
-                         .right-content{
-                                img{
-                                 #Img-cubo{
-                                         height: 126px;
-
-                                    }
-                                }
-                            }
-                         }
-                    }
-                }
-            }
-         }
+      }
+      li {
+        a {
+          color: $color-selection;
+        }
+      }
     }
+  }
 }
+
 
 
 

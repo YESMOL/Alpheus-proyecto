@@ -1,16 +1,4 @@
-/*!
- * imagesLoaded PACKAGED v4.1.4
- * JavaScript is all like "You images are done yet or what?"
- * MIT License
- */
 
-/**
- * EvEmitter v1.1.0
- * Lil' event emitter
- * MIT License
- */
-
-/* jshint unused: true, undef: true, strict: true */
 
 ( function( global, factory ) {
   // universal module definition
@@ -117,11 +105,7 @@ return EvEmitter;
 
 }));
 
-/*!
- * imagesLoaded v4.1.4
- * JavaScript is all like "You images are done yet or what?"
- * MIT License
- */
+
 
 ( function( window, factory ) { 'use strict';
   // universal module definition
